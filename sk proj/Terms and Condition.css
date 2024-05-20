@@ -1,0 +1,83 @@
+h2 {
+    color: #d13639;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url('background2.webp'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh; 
+}
+
+.terms-box {
+    max-width: 460px;
+    background-color: #111;
+    color: #fff;
+    font-family: "Montserrat";
+    padding: 60px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    text-align: center; 
+}
+
+.terms-text {
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.terms-text::-webkit-scrollbar {
+    width: 2px;
+    background-color: #282828;
+}
+
+.terms-text::-webkit-scrollbar-thumb {
+    background-color: #d13639;
+}
+
+.terms-text h2 {
+    text-transform: uppercase;
+}
+
+.terms-box h4 span {
+    color: #d13639;
+}
+
+.buttons {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.btn {
+    height: 25px;
+    width: calc(50% - 6px);
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff; 
+    transition: .3s linear; 
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.red-btn {
+    background-color: #d13639;
+}
+
+.grey-btn {
+    background-color: #282828;
+}
+
+.btn:hover {
+    opacity: .6;
+}
